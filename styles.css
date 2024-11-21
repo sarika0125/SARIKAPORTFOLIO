@@ -1,0 +1,8 @@
+﻿/* Resize the image to a minimum width */
+#intro .image.main img {
+    max-width: 200px; /* Set a maximum width to make it smaller */
+    width: 100%; /* Ensures the image scales to the max-width */
+    height: auto; /* Keeps the aspect ratio intact */
+    display: block; /* Removes extra space below the image */
+    margin: 0 auto; /* Centers the image horizontally */
+}
